@@ -13,12 +13,17 @@ export default function Home () {
                     <span className='Raute1_3'> # </span>
                 </div>
                 <div className='TextProjektmanagement'>
-                    Projektmanagement
+                    Willkommen
                     <span className='TextPosition'>
-                    Wir sind ein erfahrener Projektsteuerer und Baumanager, der komplexe Immobilien- und Bauvorhaben erfolgreich und termingerecht abschließt. 
-                    Unsere bewährte Vorgehensweise beinhaltet eine strukturierte Dokumenten- und Informationsverwaltung, eine integrierte Projektkommunikation, 
-                    lückenlose Protokollierung und zentrale Dokumentation aller Aktivitäten sowie effizientes Baucontrolling. Durch diese Maßnahmen erreichen 
-                    wir eine hohe Transparenz und Entscheidungsqualität.
+                    Wir sind renommierter Projektentwickler für Handelsimmobilien im Lebensmittel- und Drogeriebereich mit Sitz in der Dreiflüssestadt Passau. 
+                    Mit großer Erfahrung und einem tiefgreifenden Verständnis für die spezifischen Anforderungen dieser Branche entwickeln wir maßgeschneiderte 
+                    Lösungen für unsere Kunden. 
+                    Unser Engagement für Qualität, Innovation und Kundenzufriedenheit spiegelt sich in jedem Projekt wider, das wir realisieren. Ob es um den Bau 
+                    von Supermärkten, Drogerien, Fachmarktzentren oder anderen Einzelhandelsimmobilien geht, wir setzen auf höchste Standards in Planung, Bauausführung 
+                    und Nachbetreuung. 
+                    Besonderen Wert legen wir auf eine transparente Kommunikation, Zuverlässigkeit und termingerechte Fertigstellung, um sicherzustellen, dass die 
+                    Projekte erfolgreich abgeschlossen werden. 
+                    Wir laden Sie ein, nachfolgend mehr über unsere Leistungen und Projekte zu erfahren und freuen uns darauf, Ihnen unsere Handelsimmobilien näher zu bringen. 
                     </span>
                 </div>
             </section>
@@ -30,12 +35,12 @@ export default function Home () {
                     <span className='Raute2_4'> # </span>
                 </div>
                 <div className='TextProjektentwicklung'>
-                    Projektentwicklung
+                    Bestandsprojekte
                     <span className='TextPosition'>
-                    Wir entwickeln Ideen für Ihre Grundstücke und Bauvorhaben, die sich an den möglichen Markt- und Nutzungsverhältnissen orientieren - 
-                    unabhängig davon, ob es sich um brachliegende Bahn- oder Industrieareale oder städtische Quartiere handelt. 
-                    Anschließend erarbeiten wir eine marktgerechte Standortentwicklung und unterstützen bei der Investorenansprache. 
-                    Wir stimmen die ausgearbeiteten Konzepte mit den Zielen und Vorgaben der Interessenten ab und realisieren das erforderliche Baurecht für Sie.
+                    Wir freuen uns, Ihnen unsere erfolgreich abgeschlossenen Handelsimmobilienprojekte präsentieren zu können. 
+                    Jedes dieser Projekte ist das Ergebnis harter Arbeit, Hingabe und unseres Engagements für Qualität und Kundenzufriedenheit. 
+                    Wir sind stolz darauf, einen Beitrag zur Entwicklung und Modernisierung des Einzelhandelssektors zu leisten und freuen uns darauf, 
+                    auch Ihr nächstes Projekt erfolgreich umzusetzen. 
                     </span>
                 </div>
             </section>
@@ -47,12 +52,14 @@ export default function Home () {
                     <span className='Raute1_3'> # </span>
                 </div>
                 <div className='TextBauüberwachung'>
-                    Bauüberwachung
+                    Projekte im Bau
                     <span className='TextPosition'>
-                    Wir unterstützen Sie bei Ihrem Bau- oder Sanierungsvorhaben von der Planung bis zur Abnahme des Objekts mit einem 5-Phasen-Check. 
-                    Unsere Stichproben-Prüfungen spüren Mängel auf, um eine hohe Bauqualität zu sichern und Kosten durch sofortiges Beseitigen zu vermeiden. 
-                    Wir dokumentieren einheitlich während jeder Bauphase und verwenden dabei neueste Technik. Vertrauen Sie auf unsere langjährige Erfahrung 
-                    und die Sicherung Ihres Bauvorhabens durch ein geprüftes Nachunternehmensverfahren.
+                    Wir arbeiten kontinuierlich an der Realisierung neuer Handelsimmobilienprojekte, die den Anforderungen unserer Kunden entsprechen und 
+                    innovative Lösungen für den Einzelhandelssektor bieten. 
+                    Hier präsentieren wir Ihnen einen exklusiven Einblick in aktuelle Projekte, die sich derzeit in der Bauphase befinden. Sämtliche Projekte 
+                    werden mit modernsten Bautechniken und hochwertigen Materialien realisiert. 
+                    Von Supermärkten mit innovativem Design bis hin zu Drogeriemärkten mit einem Fokus auf Nachhaltigkeit und Benutzerfreundlichkeit setzen 
+                    wir auf kreative Konzepte, um die Bedürfnisse unserer Kunden zu erfüllen und gleichzeitig einen Mehrwert für die Gemeinschaft zu schaffen. 
                     </span>
                 </div>
             </section>
@@ -64,11 +71,13 @@ export default function Home () {
                     <span className='Raute2_4'> # </span>
                 </div>
                 <div className='TextControlling'>
-                    Controlling Plus<sup style={{color: "#e94e1b"}}>+</sup>
+                    Projekte in Entwicklung
                     <span className='TextPosition'>
-                    Wir bieten professionelle Unterstützung beim Controlling von Terminen und Kosten für Ihr Bauvorhaben. Mit dem Controlling PLUS erstellen 
-                    wir Kontrollberichte des tatsächlichen Verlaufs im Vergleich zu den Vorgaben der Projektleitung und übernehmen die Bauüberwachung vor Ort 
-                    für Sie. So begleiten Sie als Bauherr das Projekt intensiv in der Leitungsfunktion.
+                    Wir sind ständig auf der Suche nach Grundstücken und Liegenschaften um neue , innovative Handelsimmobilien zu schaffen, die den sich ständig 
+                    wandelnden Bedürfnissen des Einzelhandels gerecht werden. 
+                    Hier erhalten Sie eine Übersicht über unsere kommenden Projekte, die derzeit in der Entwicklungsphase sind. 
+                    Von der Planung neuer Supermärkte bis hin zur Gestaltung moderner Drogeriemärkte setzen wir auf kreative Ansätze und innovative Lösungen, 
+                    um unseren Kunden einzigartige Handelsimmobilien zu bieten. 
                     </span>
                 </div>
             </section>
@@ -81,14 +90,14 @@ export default function Home () {
                 <div className='KontaktText' id="Kontakt">
                         <span className='InnerKontaktHeader'>Kontakt</span>
                         <span className='InnerKontaktText'>
-                            <span className='Kontakt1'>ha consult<br/></span>
+                            <span className='Kontakt1'>Grundvermögen Lindahof GmbH<br/></span>
                             <span className='Kontakt2'>Helmut Antesberger <br/>
                             Bahnhofstraße 40 <br/>
                             94032 Passau <br/><br/>
                             Telefon: +49 (0)851 379 341 70 <br/>
                             Mail: </span>
-                            <span className='Kontakt3'><a href="mailto:office@ha-consult.de">office@ha-consult.de</a> <br/><br/>
-                            <a href="https://www.google.de/maps/dir//ha+consult,+Bahnhofstra%C3%9Fe+40,+94032+Passau/@48.5744668,13.4457234,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4774f6002ba23259:0x3ae6c8bf2060e606!2m2!1d13.4479121!2d48.5744668!3e0" target='_blank' rel="noopener noreferrer">Routenplanung</a></span>
+                            <span className='Kontakt3'><a href="mailto:office@gvlgmbh.de">office@gvlgmbh.de</a> <br/><br/>
+                            <a href="https://www.google.de/maps/dir//Grundverm%C3%B6gen+Lindahof+GmbH,+Blockheizkraftwerk+Bahnhofstra%C3%9Fe,+Bahnhofstra%C3%9Fe+40,+94032+Passau/@48.5717044,13.4474815,16.25z/data=!4m9!4m8!1m0!1m5!1m1!1s0x477458a0e661845d:0xd07eb45cf4242221!2m2!1d13.4480059!2d48.5744622!3e0?entry=ttu" target='_blank' rel="noopener noreferrer">Routenplanung</a></span>
                         </span>
                     </div>
             </section>

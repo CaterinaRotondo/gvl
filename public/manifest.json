@@ -1,9 +1,9 @@
 {
-  "short_name": "ha consult",
-  "name": "ha consult",
+  "short_name": "GVL Gmbh",
+  "name": "Grundvermögen Lindahof GmbH",
   "icons": [
     {
-      "src": "src/media/Logos_Grafiken/hac_logo_rgb_weiss_gruen.png",
+      "src": "src/media/Logos_Grafiken/logo-gvl.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }

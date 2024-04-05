@@ -61,7 +61,7 @@ export default function Slideshow() {
         
             <div className="BigBlockClickable" onClick={() => scrollTo()}>
                 <span className='BigNumberHero'> {index === 0 ? 1 : index === 1 ? 2 : index === 2 ? 3 : 4} </span>
-                <span className='Caption'> {index === 0 ? "Projektmanagement" : index === 1 ? "Projektentwicklung" : index === 2 ? "Bauüberwachung" : "Controlling Plus"} </span>
+                <span className='Caption'> {index === 0 ? "Willkommen" : index === 1 ? "Bestandsprojekte" : index === 2 ? "Projekte im Bau" : "Projekte in Entwicklung"} </span>
                 <img src={PfeilPNG} alt="Pfeil nach unten" className="Pfeil" /> 
             </div>
         </div>

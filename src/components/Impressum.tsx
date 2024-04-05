@@ -11,12 +11,12 @@ export default function Impressum () {
                     <h1>Impressum</h1>
                     <h3>Anbieterinformationen</h3>
                     <p>
-                        <span>ha-consult - Helmut Antesberger</span> <br />
+                        <span>Grundvermögen Lindahof GmbH - Helmut Antesberger</span> <br />
                         Bahnhofstr. 40 <br />
                         94032 Passau <br />
                         +49 (0) 851 / 37 93 41 70 <br />
                         +49 (0) 851 / 37 93 40 03 <br />
-                        Email: office@ha-consult.de <br />
+                        Email: office@gvlgmbh.de <br />
                     </p>
                     <h3>Rechtliche Angaben</h3>
                     <p>
@@ -37,7 +37,7 @@ export default function Impressum () {
                     <p>
                         Zur außergerichtlichen Beilegung von verbraucherrechtlichen Streitigkeiten hat die Europäische Union eine Online-Plattform 
                         (“OS-Plattform”) eingerichtet, an die Sie sich wenden können. Die Plattform finden Sie unter <a href="http://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer">http://ec.europa.eu/consumers/odr/</a>. 
-                        Unsere Emailadresse lautet: office@ha-consult.de
+                        Unsere Emailadresse lautet: office@gvlgmbh.de
                     </p>
                     <h3>Disclaimer</h3>
                     <p>

@@ -9,7 +9,7 @@ import { Link, Route, Routes, useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import CookieConsent from "react-cookie-consent";
-import Logo from "./media/Logos_Grafiken/hac_logo_rgb_weiss_gruen.png";
+import Logo from "./media/Logos_Grafiken/gvl_logo_rgb_weiss_gruen.png";
 import LogoFooter from "./media/Logos_Grafiken/hac_logo_rgb_weiss_grau.png";
 import LogoGVL from "./media/Logos_Grafiken/gvl_logo_rgb_weiss_grau.png";
 import Güterstation from "./media/Logos_Grafiken/hac_gueterstation_web_weiss.png"
@@ -104,7 +104,7 @@ function Header() {
           <Link to="/#Controlling" onClick={closeBurgerMenu}>Controlling Plus</Link>
           <hr/>
           <div style={{display: "flex", width: "70%", justifyContent: "space-between"}}> 
-            <a href="mailto:office@ha-consult.de">
+            <a href="mailto:office@gvlgmbh.de">
               <picture>
                 <source srcSet={MailIconSVG} type="image/svg+xml" />
                 <img src={MailIconPNG} alt="E-Mail Icon" width="50px" /> 
@@ -116,7 +116,7 @@ function Header() {
                 <img src={PhoneIconPNG} alt="Telefon Icon" width="50px" /> 
               </picture>
             </a>
-            <a href="https://www.google.de/maps/dir//ha+consult,+Bahnhofstra%C3%9Fe+40,+94032+Passau/@48.5744668,13.4457234,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4774f6002ba23259:0x3ae6c8bf2060e606!2m2!1d13.4479121!2d48.5744668!3e0" target='_blank' rel="noopener noreferrer">
+            <a href="https://www.google.de/maps/dir//Grundverm%C3%B6gen+Lindahof+GmbH,+Blockheizkraftwerk+Bahnhofstra%C3%9Fe,+Bahnhofstra%C3%9Fe+40,+94032+Passau/@48.5717044,13.4474815,16.25z/data=!4m9!4m8!1m0!1m5!1m1!1s0x477458a0e661845d:0xd07eb45cf4242221!2m2!1d13.4480059!2d48.5744622!3e0?entry=ttu" target='_blank' rel="noopener noreferrer">
               <picture>
                 <source srcSet={LocationIconSVG} type="image/svg+xml" />
                 <img src={LocationIconPNG} alt="Location Icon" width="50px" /> 
@@ -127,7 +127,7 @@ function Header() {
         </div>
       </div>
       <div className='Header' id="Header">
-        <Link to="/"><img src={Logo} alt="Logo ha consult" className='LogoPosition' /> </Link>
+        <Link to="/"><img src={Logo} alt="Logo GVL GmbH" className='LogoPosition' /> </Link>
         {isMobile && <div style={{ position: "absolute", width: "43px", height: "28px;", top: "25px", right: "36px"}}>
           <Hamburger label="Hamburgermenü" distance="lg" rounded color="#AC9B73" toggled={isOpen} toggle={setOpen} onToggle={toggled => {
           var x = document.getElementById("BurgerMenu")!;
@@ -144,7 +144,7 @@ function Header() {
         {!isMobile && <div className='menue-_-sofia-pro-–-25pt MenuBar'>
           <Link to="/#Projektmanagement"><div style={isTabletOrLaptop ? {paddingRight: "min(3.84vw, 32px)"} : {paddingRight: "min(3.49vw, 67px)"}}>Leistungen</div></Link>
           <Link to="/#Kontakt"><div style={isTabletOrLaptop ? {paddingRight: "min(3.72vw, 31px)"} : {paddingRight: "min(6.15vw, 118px)"}}>Kontakt</div></Link>
-            <a href="mailto:office@ha-consult.de"><picture style={{paddingRight: "min(2.19vw, 42px)"}}>
+            <a href="mailto:office@gvlgmbh.de"><picture style={{paddingRight: "min(2.19vw, 42px)"}}>
                 <source srcSet={MailIconSVG} type="image/svg+xml" />
                 <img src={MailIconPNG} alt="E-Mail Icon" style={{width: "clamp(25px, 1.98vw, 38px)"}}/> 
             </picture></a>
@@ -152,7 +152,7 @@ function Header() {
                 <source srcSet={PhoneIconSVG} type="image/svg+xml" />
                 <img src={PhoneIconPNG} alt="Telefon Icon" style={{width: "clamp(25px, 1.98vw, 38px)"}} /> 
             </picture></a>
-            <a href="https://www.google.de/maps/dir//ha+consult,+Bahnhofstra%C3%9Fe+40,+94032+Passau/@48.5744668,13.4457234,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4774f6002ba23259:0x3ae6c8bf2060e606!2m2!1d13.4479121!2d48.5744668!3e0" target='_blank' rel="noopener noreferrer">
+            <a href="https://www.google.de/maps/dir//Grundverm%C3%B6gen+Lindahof+GmbH,+Blockheizkraftwerk+Bahnhofstra%C3%9Fe,+Bahnhofstra%C3%9Fe+40,+94032+Passau/@48.5717044,13.4474815,16.25z/data=!4m9!4m8!1m0!1m5!1m1!1s0x477458a0e661845d:0xd07eb45cf4242221!2m2!1d13.4480059!2d48.5744622!3e0?entry=ttu" target='_blank' rel="noopener noreferrer">
               <picture>
                 <source srcSet={LocationIconSVG} type="image/svg+xml" />
                 <img src={LocationIconPNG} alt="Location Icon" style={{width: "clamp(25px, 1.98vw, 38px)"}}/> 
@@ -173,8 +173,8 @@ function Footer() {
           <Link to="/Datenschutz" className='PageLink'>Datenschutz</Link>
         </div>
         <img src={Güterstation} alt="Güterstation" className='LogoGüterstation'/>
-        <Link to="/"><img src={LogoFooter} alt="Logo ha consult" className='LogoFooter'/></Link>
-        <a href="https://gvlgmbh.de/" target='_blank' rel="noopener noreferrer"><img src={LogoGVL} alt="Logo gvl grundvermögen lindahof" className='LogoGVL' /> </a>
+        <Link to="/"><img src={LogoGVL} alt="Logo gvl grundvermögen lindahof" className='LogoFooter' /></Link> 
+        <a href="https://www.ha-consult.de/" target='_blank' rel="noopener noreferrer"><img src={LogoFooter} alt="Logo ha consult" className='LogoGVL'/></a>
       </div>
     </>
   )
