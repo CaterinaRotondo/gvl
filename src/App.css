@@ -253,8 +253,6 @@
     font-family: Sofia Pro Extra Light;
     font-size: clamp(129px, 18.52vh, 200px);
     color: var(--unnamed-color-ffffff);
-    /* line-height: min(23.52vh , 254px);; */
-    /* line-height: clamp(164px, 23.52vh,254px); */
     line-height: clamp(191px,23.52vh,297px);
 }
 
@@ -503,3 +501,22 @@
  .InfoLink {
     color: #E94E1B;
  }
+
+ .Carousell1, .Carousell2 {
+    height: 250px;
+    width: 350px;
+}
+
+.Carousell1, .Carousell2 {
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+}
+
+.Carousell1 {
+    background: transparent url('./media/Projekte/Screenshot 360 Grad Lidl Aidenbacher.png') center/100% no-repeat padding-box;
+}
+
+.Carousell2 {
+    background: transparent url('./media/Projekte/Tekturplan Schnitt Lidl Aidenbacher.jpg') center no-repeat padding-box;
+}

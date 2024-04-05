@@ -1,4 +1,5 @@
 import Slideshow from "./Slideshow";
+import Bestandsprojekte from "./PictureCarusell";
 
 export default function Home () {
 
@@ -42,8 +43,10 @@ export default function Home () {
                     Wir sind stolz darauf, einen Beitrag zur Entwicklung und Modernisierung des Einzelhandelssektors zu leisten und freuen uns darauf, 
                     auch Ihr nächstes Projekt erfolgreich umzusetzen. 
                     </span>
+                    <Bestandsprojekte />
                 </div>
             </section>
+            
             <section className='Bauüberwachung'>
             <div className='PicBauüberwachung' />
                 <div className='PfeilBauüberwachung' />
