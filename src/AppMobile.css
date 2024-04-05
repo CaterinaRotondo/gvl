@@ -1,0 +1,662 @@
+@import url("./fonts/sofiapro/stylesheet.css");
+
+@media only screen and (max-width: 760px) {
+    hr {
+        width: 73px;
+        height: 0px;
+        border: 3px solid var(--unnamed-color-ffffff);
+        border: 1.5px solid #FFFFFF;
+        opacity: 1;
+        margin-left: 0;
+    }
+
+    .Header {
+        width: 100%;
+        height: 100px;
+        background: var(--unnamed-color-3c3c3b) 0% 0% no-repeat padding-box;
+        opacity: 0.8;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        transition: opacity .25s ease-in-out 0s,visibility .25s ease-in-out 0s;
+    }
+
+    .Hero {
+        min-height: 652px;
+        margin-top: -100px;
+    }
+
+    .Hero1, .Hero2, .Hero3, .Hero4 {
+        transition: opacity .25s ease-in-out 0s,visibility .25s ease-in-out 0s;
+        background-size: cover;
+        background-position: center;
+        display: inline-block;
+    }
+
+    .BlockDiv {
+        position: absolute;
+        top: 100px;
+        left: min(8.9%, 35px);
+    }
+
+    .BigBlock {
+        position: relative;
+        width: 217px; 
+        height: 482px;
+        background: var(--unnamed-color-e94e1b) 0% 0% no-repeat padding-box;
+        box-shadow: 5px 10px 15px #00000029;
+        border-radius: 0px 0px 80px 0px;
+    }
+
+    .LogoPosition {
+        width: 216px;
+        height: 35px;
+        position: relative;
+        top: 27px;
+        left: 35px;
+    }
+
+    .FixedCaption {
+        top: 83px;
+        left: 34px;
+        position: absolute;
+        height: 219px;
+    }
+
+    .BigBlockClickable {
+        bottom: 18px;
+        left: 34px;
+        width: 149px;
+        height: 138px;
+        position: absolute;
+        display: block;
+    }
+
+    .SmallWhite {
+        letter-spacing: 0px;
+        color: var(--unnamed-color-ffffff);
+        text-align: left;
+        font-family: var(--unnamed-font-family-sofia-pro);
+        font-weight: var(--unnamed-font-weight-300);
+        font-size: 16px;
+        /* font-size: max(2.78vh, 16px); */
+        line-height: 24px;
+    }
+
+    .PositionBaubetreuung {
+        position: absolute;
+        left: 0px;
+        font-family: var(--unnamed-font-family-sofia-pro);
+        font-weight: var(--unnamed-font-weight-bold);
+        font-size: 48px;
+        line-height: var(--unnamed-line-spacing-139);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-ffffff);
+        text-transform: var(--unnamed-text-transform-uppercase);
+    }
+    
+    .PositionBau {
+        top: 1px;
+    }
+    
+    .PositionBe {
+        top: 46px;
+    }
+    
+    .PositionTreu {
+        top: 91px;
+    }
+    
+    .PositionUng {
+        top: 137px;
+    }
+
+    .BigNumberHero {
+        font-size: 109px; 
+        line-height: 138px;
+        height: 138px;
+        width: fit-content;
+    }
+
+    .BigNumber1_3, .BigNumber2_4 {
+        top: 35px;
+        position: absolute;
+        font-family: Sofia Pro;
+        font-weight: var(--unnamed-font-weight-300);
+        font-size: 96px; 
+        line-height: 143px;
+        color: var(--unnamed-color-ffffff);
+    }
+    
+    .BigNumber1_3 {
+        left: 59px;
+    }
+
+    .BigNumber2_4 {
+        left: 117px;
+    }
+
+    .Raute1_3, .Raute2_4 {
+        top: 101px;
+        position: absolute;
+        font-style: var(--unnamed-font-style-normal);
+        font-variant: normal;
+        font-weight: var(--unnamed-font-weight-300);
+        font-size: 43px;
+        line-height: 65px;
+        font-family: Sofia Pro Light;
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-3c3c3b);        
+    }
+
+    .Raute1_3 {
+        left: 29px;
+    }
+
+    .Raute2_4 {
+        left: 88px;
+    }
+    
+    .Caption {
+        top: 60px;
+        left: 0px;
+        position: absolute;
+        font-family: Sofia Pro Light;
+        font-size: 16px;
+        color: var(--unnamed-color-3c3c3b);
+    }
+
+    .Pfeil {
+        width: 20px;
+        height: auto;
+        position: relative;
+        top: 0px;
+        left: -30px;
+    }
+
+    .CircleDiv {
+        top: 2vh;
+        width: 217px;
+        height: 42px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Projektmanagement {
+        width: 100%;
+        height: 1145px;
+        position: relative;
+    }
+
+    .Projektentwicklung {
+        width: 100%;
+        height: 1115px;
+        position: relative;
+        background: var(--unnamed-color-e9e4da) 0% 0% no-repeat padding-box;
+    }
+
+    .Bauüberwachung {
+        width: 100%;
+        height: 1180px;
+        position: relative;
+    }
+
+    .Controlling {
+        width: 100%;
+        height: 1024px;
+        position: relative;
+        background: var(--unnamed-color-e9e4da) 0% 0% no-repeat padding-box;
+    }
+
+    .PicProjektmanagement, .PicProjektentwicklung, .PicBauüberwachung, .PicControlling {
+        width: 100%;
+        left: 0px;
+        position: absolute;
+        opacity: 1;
+    }
+
+    .PicProjektmanagement {
+        top: 156px;
+        height: 489px;
+        background: transparent url('./media/Bilder_Content/hac_projektmanagement_1024_1274.jpg') 0% 0% no-repeat padding-box;
+        background-size: cover;
+        background-position: center;
+        border-radius: 0px 0px 0px 80px;
+    }
+
+    .PicProjektentwicklung {
+        top: 96px;
+        height: 490px;
+        background: transparent url('./media/Bilder_Content/hac_projektentwicklung_1024_1274.jpg') 0% 0% no-repeat padding-box;
+        background-size: cover;
+        background-position: center;
+        border-radius: 0px 0px 80px 0px;
+    }
+
+    .PicBauüberwachung {
+        top: 154px;
+        height: 488px;
+        background: transparent url('./media/Bilder_Content/hac_bauueberwachung_1024_1274.jpg') 0% 0% no-repeat padding-box;
+        background-size: cover;
+        background-position: center;
+        border-radius: 0px 0px 0px 80px;
+    }
+
+    .PicControlling {
+        top: 95px;
+        height: 490px;
+        background: transparent url('./media/Bilder_Content/hac_controllingplus_1024_1274.jpg') 0% 0% no-repeat padding-box;
+        background-size: cover;
+        background-position: center;
+        border-radius: 0px 0px 80px 0px;
+    }
+
+    .PfeilProjektmanagement, .PfeilBauüberwachung  {
+        width: 119px;
+        height: 113px;
+        background: transparent url('./media/Logos_Grafiken/hac_pfeil_links.png') 0% 0% no-repeat padding-box;
+        background-size: contain;
+        top: 99px;
+        left: 239px;
+        position: absolute;
+    }
+
+    .PfeilProjektentwicklung, .PfeilControlling  {
+        width: 119px;
+        height: 113px;
+        background: transparent url('./media/Logos_Grafiken/hac_pfeil_rechts.png') 0% 0% no-repeat padding-box;
+        background-size: contain;
+        top: 40px;
+        left: 35px; 
+        position: absolute;
+    }
+
+    .BoxProjektmanagement {
+        top: 60px;
+        left: 35px;
+        width: 191px;
+        height: 191px;
+        background: var(--unnamed-color-e94e1b) 0% 0% no-repeat padding-box;
+        position: absolute;
+        border-radius: 0px 0px 80px 0px;
+    }
+
+    .BoxProjektentwicklung, .BoxControlling {
+        left: 166px;
+        width: 191px;
+        height: 191px;
+        background: var(--unnamed-color-e94e1b) 0% 0% no-repeat padding-box;
+        position: absolute;
+        border-radius: 0px 0px 0px 80px;
+    }
+
+    .BoxBauüberwachung {
+        top: 59px;
+        left: 35px;
+        width: 191px;
+        height: 191px;
+        background: var(--unnamed-color-e94e1b) 0% 0% no-repeat padding-box;
+        position: relative;
+        border-radius: 0px 0px 80px 00px;
+    }
+
+    .TextProjektmanagement, .TextProjektentwicklung, .TextBauüberwachung, .TextControlling {
+        font-family: Sofia Pro Light;
+        font-weight: var(--unnamed-font-weight-300);
+        font-size: var(--unnamed-font-size-35);
+        line-height: var(--unnamed-line-spacing-53);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-3c3c3b);
+        left: 7vw;
+    }
+
+    .TextProjektmanagement {
+        top: 680px;
+        min-width: 325px;
+        width: 85vw;
+        min-height: 411px;
+        position: relative;
+    }
+
+    .TextProjektentwicklung {
+        top: 621px;
+        min-width: 322px;
+        width: 83vw;
+        min-height: 444px;
+        position: absolute;
+        text-align: right;
+    }
+
+    .TextBauüberwachung {
+        top: 676px;
+        min-width: 322px;
+        width: 83vw;
+        min-height: 444px;
+        position: absolute;
+    }
+
+    .TextControlling {
+        top: 620px;
+        min-width: 322px;
+        width: 83vw;
+        min-height: 354px;
+        position: absolute;
+        text-align: right;
+    }
+
+    .TextPosition {
+        font-family: Sofia Pro Light;
+        font-weight: var(--unnamed-font-weight-300);
+        font-size: var(--unnamed-font-size-15);
+        line-height: var(--unnamed-line-spacing-30);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-3c3c3b);
+        top: 92px;
+        position: absolute;
+        left: 0px;
+    }
+
+    .Kontakt {
+        width: 100%;
+        height: 1552px;
+        position: relative;
+    }
+
+    .BoxKontakt {
+        left: 165px;
+        width: 192px;
+        height: 192px;
+        background: var(--unnamed-color-e94e1b) 0% 0% no-repeat padding-box;
+        top: 553px;
+        position: absolute;
+        border-radius: 0px 0px 0px 80px;
+        z-index: 1;
+    }
+
+    .KontaktIcon {
+        top: 66px;
+        left: 104px;
+        width: 64px;
+        height: 64px;
+        position: absolute;
+        background: transparent url('./media/Logos_Grafiken/hac_kontakt.svg') 0% 0% no-repeat padding-box;
+    }
+
+    .Planbild {
+        top: 59px;
+        width: 100%;
+        height: 590px;
+        position: absolute;
+        background: transparent url('./media/Bilder_Content/hac_desk_kontakt_plan_1920.jpg') 0% 0% no-repeat padding-box;
+        background-size: cover;
+        background-position: 30%;
+    }
+
+    .KontaktText {
+        top: 1178px;
+        right: 38px;
+        width: 318px;
+        height: 334px;
+        position: absolute;
+        text-align: right;
+    }
+
+    .InnerKontaktHeader {
+        font-family: Sofia Pro Light;
+        font-weight: var(--unnamed-font-weight-300);
+        font-size: var(--unnamed-font-size-35);
+        line-height: var(--unnamed-line-spacing-53);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-3c3c3b);
+    }
+
+    .InnerKontaktText {
+        top: 75px;
+        right: 0px;
+        position: absolute;
+    }
+
+    .Kontakt1 {
+        font-family: Sofia Pro Medium;
+        font-size: var(--unnamed-font-size-15);
+        line-height: var(--unnamed-line-spacing-30);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-3c3c3b);
+    }
+    
+    .Kontakt2 {
+        font-family: Sofia Pro Light;
+        font-weight: var(--unnamed-font-weight-300);
+        font-size: var(--unnamed-font-size-15);
+        line-height: var(--unnamed-line-spacing-30);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-3c3c3b);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-3c3c3b);
+    }
+    
+    .Kontakt3 {
+        font-size: var(--unnamed-font-size-15);
+        line-height: var(--unnamed-line-spacing-30);
+        font-family: Sofia Pro Light;
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-e94e1b);
+    }
+    
+    .Kontakt3 a, .Kontakt3 a:visited {
+        text-decoration: underline;
+        color: var(--unnamed-color-e94e1b);
+    }
+
+    .Footer {
+        width: 100%;
+        height: 448px;
+        position: relative;
+        background: var(--unnamed-color-ac9b73) 0% 0% no-repeat padding-box;
+        margin: auto;
+    }
+
+    .ExtraPages {
+        top: 42px;
+        right: 9.16%;
+        width: 212px;
+        height: 66px;
+        position: absolute;
+        font-size: var(--unnamed-font-size-15);
+        line-height: var(--unnamed-line-spacing-30);
+        font-family: Sofia Pro Bold;
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-ffffff);
+        text-align: right;
+    }
+
+    .LogoGüterstation {
+        position: absolute;
+        left: -80px;
+        top: 242px;
+        width: auto;
+        height: 206px;
+    }
+
+    .LogoFooter {
+        position: absolute;
+        top: 130px;
+        right: 9.16%;
+        width: 172px;
+        height: 28px;
+    }
+
+    .LogoGVL {
+        position: absolute;
+        top: 192px;
+        right: 9.16%;
+        width: 237px;
+        height: 38px;
+    }
+
+    .MapBild {
+        background: transparent url('./media/Bilder_Content/hac_standortkarte_1024_1274_mit_Location.jpg') 0% 0% no-repeat padding-box;
+        background-size: cover;
+        background-position: center;
+        opacity: 1;
+        border-radius: 0px 0px 50px 0px;
+        position: absolute;
+        width: 100%;
+        height: 495px;
+        top: 649px;
+    }
+
+    .BurgerMenu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        top: 100px;
+        height: 79.5vh;
+        background: #E94E1B 0% 0% no-repeat padding-box;
+        box-shadow: 5px 10px 15px #00000029;
+        border-radius: 0px 0px 50px 0px;
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-35)/var(--unnamed-line-spacing-53) Sofia Pro Light;
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-ffffff);
+        z-index: 1;
+        overflow: auto;
+    }
+
+    .BurgerMenu a, .BurgerMenu a:visited {
+        text-decoration: none!important;
+        color: var(--unnamed-color-ffffff);
+    }
+
+    .impressum-mobile {
+        position: relative;
+        left: min(7.29vw, 35px);
+        top: 44px;
+        margin-bottom: 155px;
+        /* width: min(43.28vw, 863px); */
+        width: 90vw;
+    }
+    
+    .impressum-mobile p {
+        font-family: Sofia Pro Light;
+        font-weight: var(--unnamed-font-weight-300);
+        font-size: var(--unnamed-font-size-15);
+        line-height: var(--unnamed-line-spacing-30);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-3c3c3b);
+        margin: 0px;
+        margin-bottom: 64px;
+    }
+    
+    .impressum-mobile h1 {
+        font-family: Sofia Pro Light;
+        font-weight: var(--unnamed-font-weight-300);
+        font-size: var(--unnamed-font-size-35);
+        line-height: var(--unnamed-line-spacing-53);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-e94e1b);
+        margin: 0px;
+        margin-bottom: 44px;
+    }
+    
+    .impressum-mobile h3 {
+        font-family: Sofia Pro Light;
+        font-weight: var(--unnamed-font-weight-300); 
+        font-size: 30px;
+        line-height: 50px;
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-3c3c3b);
+        margin: 0px;
+        margin-bottom: 14px;
+    }
+    
+    .impressum-mobile h4 {
+        font-family: Sofia Pro Light;
+        font-weight: var(--unnamed-font-weight-300); 
+        font-size: 25px;
+        line-height: var(--unnamed-line-spacing-45);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-3c3c3b);
+        margin: 0px;
+    }
+    
+    .impressum-mobile span {
+        font-family: Sofia Pro;
+        font-weight: var(--unnamed-font-weight-bold);
+        font-size: var(--unnamed-font-size-15);
+        line-height: var(--unnamed-line-spacing-30);
+        letter-spacing: var(--unnamed-character-spacing-0);
+    }
+
+    .impressum-mobile a, .impressum-mobile a:visited {
+        color: var(--unnamed-color-3c3c3b);
+        text-decoration: none;
+    }
+
+    #Projektmanagement, #Projektentwicklung, #Baubetreuung, #Controlling, #Kontakt {
+        scroll-margin: 100px;
+    }
+
+    .slideshowDot {
+        width: 42px;
+        height: 42px;
+        background: 0% 0% no-repeat padding-box;
+        border-radius: 38px;
+        display: inline-block;
+        cursor: pointer;
+        background-color: #FFFFFF;
+      }
+
+      .CookieContainer {
+        background: #FFFFFF;
+        position: absolute;
+        top: 120px;
+        left: 5vw;
+        height: 60%;
+        min-height: 500px;
+        max-width: 768px;
+        width: 90vw;
+        display: block;
+        z-index: 999;
+        color: #3C3C3B;
+     }
+    
+     .CookieHeader {
+        font-family: Sofia Pro;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: var(--unnamed-font-weight-bold);
+        width: 100%;
+        text-align: center;
+     }
+    
+     .CookieContent {
+        font-family: Sofia Pro Light;
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: var(--unnamed-font-weight-300);
+     }
+    
+     .ButtonWrapper {
+        position: relative;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+     }
+    
+     .ButtonStyle {
+        height: clamp(40px, 4.35vh, 47px);
+        max-width: 212px;
+        width: 31.04vw;
+        background: var(--unnamed-color-3c3c3b) 0% 0% no-repeat padding-box;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+        border-radius: 0px;
+        box-shadow: none;
+        color: var(--unnamed-color-ffffff);
+        font-size: 16px;
+        font-family: var(--unnamed-font-family-sofia-pro);
+     }
+}

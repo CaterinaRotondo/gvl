@@ -1,0 +1,57 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://rotondo-it.de",
+  "dependencies": {
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.3",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "google-map-react": "^2.2.0",
+    "hamburger-react": "^2.5.0",
+    "react": "^18.2.0",
+    "react-burger-menu": "^3.0.9",
+    "react-cookie-consent": "^8.0.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-responsive": "^9.0.2",
+    "react-router-dom": "^6.4.3",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "5.0.1",
+    "react-scroll-to-top": "^3.0.0",
+    "reactjs-popup": "^2.0.5",
+    "typescript": "^4.8.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-burger-menu": "^2.8.3",
+    "gh-pages": "^4.0.0"
+  }
+}
