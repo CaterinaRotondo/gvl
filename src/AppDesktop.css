@@ -167,11 +167,9 @@
         font-family: Sofia Pro Light;
         font-weight: var(--unnamed-font-weight-300);
         font-size: clamp(47px, 3.7vw, 70px);
-        /* line-height: var(--unnamed-line-spacing-106); */
         line-height: min(5.5vw, 106px);
         letter-spacing: var(--unnamed-character-spacing-0);
         color: var(--unnamed-color-3c3c3b);
-        /* top: 481px; */
         top: clamp(314px, 25.05vw, 481px);
         right: clamp(560px, 49.22vw, 949px);
         max-width: 838px;

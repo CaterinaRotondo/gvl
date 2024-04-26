@@ -1,7 +1,31 @@
 import Slideshow from "./Slideshow";
-import Bestandsprojekte from "./PictureCarusell";
+import Carousel from './PictureCarusell';
+import { useEffect, useState } from "react";
+import { ImageUrl } from "../types";
 
 export default function Home () {
+    const [imagesBestand, setImagesBestand] = useState<ImageUrl[]>([]);
+    const [imagesImBau, setImagesImBau] = useState<ImageUrl[]>([]);
+    const [imagesInEntwicklung, setImagesInEntwicklung] = useState<ImageUrl[]>([]);
+
+    useEffect(() => {
+        // Load dynamic images from the 'images' folder
+        const importAll = (r: ReturnType<typeof require.context>) => r.keys().map(r);
+        // Bestandsprojekte
+        const imageFiles = importAll(require.context('../media/Projekte/Bestandsprojekte', false, /\.(png|jpe?g|svg)$/));
+        const imageUrlStrings = imageFiles.map((image) => String(image)) as string[];
+        setImagesBestand(imageUrlStrings);
+        // Projekte im Bau
+        const imageFiles2 = importAll(require.context('../media/Projekte/ImBau', false, /\.(png|jpe?g|svg)$/));
+        const imageUrlStrings2 = imageFiles2.map((image) => String(image)) as string[];
+        setImagesImBau(imageUrlStrings2);
+        // Projekte in Entwicklung
+        const imageFiles3 = importAll(require.context('../media/Projekte/InEntwicklung', false, /\.(png|jpe?g|svg)$/));
+        const imageUrlStrings3 = imageFiles3.map((image) => String(image)) as string[];
+        setImagesInEntwicklung(imageUrlStrings3);
+      }, []);
+
+      
 
     return(
         <>
@@ -42,8 +66,8 @@ export default function Home () {
                     Jedes dieser Projekte ist das Ergebnis harter Arbeit, Hingabe und unseres Engagements für Qualität und Kundenzufriedenheit. 
                     Wir sind stolz darauf, einen Beitrag zur Entwicklung und Modernisierung des Einzelhandelssektors zu leisten und freuen uns darauf, 
                     auch Ihr nächstes Projekt erfolgreich umzusetzen. 
+                    <Carousel images={imagesBestand} />
                     </span>
-                    <Bestandsprojekte />
                 </div>
             </section>
             
@@ -63,6 +87,7 @@ export default function Home () {
                     werden mit modernsten Bautechniken und hochwertigen Materialien realisiert. 
                     Von Supermärkten mit innovativem Design bis hin zu Drogeriemärkten mit einem Fokus auf Nachhaltigkeit und Benutzerfreundlichkeit setzen 
                     wir auf kreative Konzepte, um die Bedürfnisse unserer Kunden zu erfüllen und gleichzeitig einen Mehrwert für die Gemeinschaft zu schaffen. 
+                    <Carousel images={imagesImBau} />
                     </span>
                 </div>
             </section>
@@ -81,6 +106,7 @@ export default function Home () {
                     Hier erhalten Sie eine Übersicht über unsere kommenden Projekte, die derzeit in der Entwicklungsphase sind. 
                     Von der Planung neuer Supermärkte bis hin zur Gestaltung moderner Drogeriemärkte setzen wir auf kreative Ansätze und innovative Lösungen, 
                     um unseren Kunden einzigartige Handelsimmobilien zu bieten. 
+                    <Carousel images={imagesInEntwicklung} />
                     </span>
                 </div>
             </section>

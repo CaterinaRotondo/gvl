@@ -3,7 +3,8 @@
 
 :root {
     /* Colors: */
-    --unnamed-color-e94e1b: #E94E1B;
+    /* --unnamed-color-e94e1b: #E94E1B; */
+    --unnamed-color-e94e1b: #AC9B73;
     --unnamed-color-3c3c3b: #3C3C3B;
     --unnamed-color-ac9b73: #AC9B73;
     --unnamed-color-e9e4da: #E9E4DA;
@@ -341,7 +342,7 @@
   }
 
   .slideshowDot.active {
-    background-color: #E94E1B;
+    background-color: #AC9B73;
   }
 
 .impressum {
@@ -502,21 +503,109 @@
     color: #E94E1B;
  }
 
- .Carousell1, .Carousell2 {
-    height: 250px;
-    width: 350px;
-}
+ /** Picture Carousel **/
 
-.Carousell1, .Carousell2 {
-    background-size: contain;
-    background-position: center;
-    display: inline-block;
-}
+.carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin: 50px 10%;
+    position: relative;
+  }
 
-.Carousell1 {
-    background: transparent url('./media/Projekte/Screenshot 360 Grad Lidl Aidenbacher.png') center/100% no-repeat padding-box;
-}
+  .carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+  }
 
-.Carousell2 {
-    background: transparent url('./media/Projekte/Tekturplan Schnitt Lidl Aidenbacher.jpg') center no-repeat padding-box;
-}
+  .carousel button img {
+    width: auto;
+    height: 50px;
+  }
+  
+  .carousel button#first {
+    left: -70px;
+  }
+  
+  .carousel button#last {
+    right: -25px;
+  }
+  
+  .carousel-image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .modal-image {
+    max-width: 90vw;
+    max-height: 70vh;
+  }
+
+  #modalFirst {
+    position: absolute;
+    top: 50%;
+    left: -52px;
+    padding: 0;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  #modalLast {
+    position: absolute;
+    top: 50%;
+    right: -52px;
+    padding: 0;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+
+  #modalClose {
+    position: absolute;
+    top: 27px;
+    right: 0px;
+    padding: 0;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .modal-button:first-child {
+    left: 100px;
+  }
+  
+  .modal-button:last-child {
+    right: -100px;
+  }
