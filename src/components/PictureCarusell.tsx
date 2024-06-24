@@ -27,7 +27,6 @@ export default function Carousel({ images }: CarouselProps) {
   };
 
   const goToPreviousImage = () => {
-    // setCurrentImageIndex((prevIndex) => (prevIndex != 0 ? prevIndex - 1 : images.length - 1));
     setCurrentImageIndex((prevIndex) => {
         const newIndex = prevIndex + 3;
         return newIndex >= images.length ? newIndex % images.length : newIndex;
@@ -35,7 +34,6 @@ export default function Carousel({ images }: CarouselProps) {
   };
 
   const goToNextImage = () => {
-    // setCurrentImageIndex((prevIndex) => (prevIndex != images.length - 1 ? prevIndex + 1 : 0));
     setCurrentImageIndex((prevIndex) => {
         const newIndex = prevIndex - 3;
         return newIndex < 0 ? images.length + (newIndex % images.length) : newIndex;
@@ -47,7 +45,6 @@ export default function Carousel({ images }: CarouselProps) {
         <button onClick={goToPreviousImage} id="first">
         <img src={PfeilLinks} alt="Next" />
         </button>
-      {/* {images.slice(currentImageIndex, currentImageIndex + 3).map((image, index) => ( */}
       {getCarouselImages(images, currentImageIndex).map((image, index) => (
         <img
           key={index}

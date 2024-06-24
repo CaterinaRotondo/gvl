@@ -1,8 +1,8 @@
 {
   "name": "test",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://rotondo-it.de",
+  "private": false,
+  "homepage": "https://rotondo-it.de/",
   "dependencies": {
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.3",

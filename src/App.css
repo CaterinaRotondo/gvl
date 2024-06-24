@@ -1,6 +1,4 @@
 /********** Root **********/
-@import url("./fonts/sofiapro/stylesheet.css");
-
 :root {
     /* Colors: */
     /* --unnamed-color-e94e1b: #E94E1B; */
@@ -11,16 +9,15 @@
     --unnamed-color-ffffff: #FFFFFF;
 
     /* Font/text values */
-    /* --unnamed-font-family-sofia-pro: sofia-pro, sans-serif; */
-    --unnamed-font-family-sofia-pro: Sofia Pro;
+    --unnamed-font-family-poppins: "Poppins", sans-serif;
     --unnamed-font-style-normal: normal;
-    --unnamed-font-weight-300: 100;
-    --unnamed-font-weight-bold: bold;
-    --unnamed-font-size-15: 15px;
-    --unnamed-font-size-20: 20px;
+    --unnamed-font-weight-300: 300;
+    --unnamed-font-weight-bold: 600;
+    --unnamed-font-size-15: 14px;
+    --unnamed-font-size-20: 18px;
     --unnamed-font-size-25: 25px;
     --unnamed-font-size-30: 30px;
-    --unnamed-font-size-35: 35px;
+    --unnamed-font-size-35: 33px;
     --unnamed-font-size-70: 70px;
     --unnamed-font-size-90: 90px;
     --unnamed-font-size-200: 200px;
@@ -36,58 +33,10 @@
   }
 
 /* Character Styles */
-.h1-mobile-_-sofia-pro-–-35pt {
-    font-family: Sofia Pro Light;
-    font-weight: var(--unnamed-font-weight-300);
-    font-size: var(--unnamed-font-size-35);
-    line-height: var(--unnamed-line-spacing-53);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-3c3c3b);
-}
-
-.body-mobile-_-sofia-pro-–-15pt {
-    font-family: Sofia Pro Light;
-    font-weight: var(--unnamed-font-weight-300);
-    font-size: var(--unnamed-font-size-15);
-    line-height: var(--unnamed-line-spacing-30);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-3c3c3b);
-}
-
-.h1-_-sofia-pro-–-70pt {
-    font-family: Sofia Pro Light;
-    font-weight: var(--unnamed-font-weight-300);
-    font-size: var(--unnamed-font-size-70);
-    line-height: var(--unnamed-line-spacing-106);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-3c3c3b);
-}
-
-.h2-_-sofia-pro-–-90pt {
-    font-family: var(--unnamed-font-family-sofia-pro);
-    font-weight: var(--unnamed-font-weight-bold);
-    font-size: var(--unnamed-font-size-90);
-    line-height: var(--unnamed-line-spacing-139);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-ffffff);
-    text-transform: var(--unnamed-text-transform-uppercase);
-}
-
-.body-_-sofia-pro-–-20pt {
-    font-family: Sofia Pro Light;
-    font-weight: var(--unnamed-font-weight-300);
-    font-size: var(--unnamed-font-size-20);
-    line-height: var(--unnamed-line-spacing-45);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-3c3c3b);
-}
-
-.menue-_-sofia-pro-–-25pt {
-    font-family: var(--unnamed-font-family-sofia-pro);
-    font-weight: var(--unnamed-font-weight-300);
-    /* font-size: var(--unnamed-font-size-25); */
+.menue-_-poppins-–-25pt {
+    font-family: var(--unnamed-font-family-poppins);
+    font-weight: 200;
     font-size: clamp(20px, 2.32vh, 25px);
-    /* line-height: var(--unnamed-line-spacing-38); */
     line-height: clamp(20px, 2.32vh, 25px);
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-ffffff);
@@ -154,7 +103,6 @@
 
 .BlockDiv {
     position: absolute;
-    /* top: 125px; */
     top: clamp(100px, 9.26px, 125px);
     left: min(28.85%, 554px);
 }
@@ -176,22 +124,19 @@
 
 .Caption {
     left: 0px;
-    /* top: clamp(85px, 50%, 127px); */
-    /* top: calc(45.52% + clamp(22px, 2.78vh, 30px)/2); */
-    top: 50%;
+    top: 47%;
     white-space: nowrap;
     position: absolute;
-    font-family: Sofia Pro Light;
-    font-size: clamp(22px, 2.78vh, 30px);
+    font-family: var(--unnamed-font-family-poppins);
+    font-size: clamp(22px, 2.58vh, 30px);
+    font-weight: var(--unnamed-font-weight-300);
     color: var(--unnamed-color-3c3c3b);
 }
 
 .BigBlockClickable {
     bottom: 0px;
     left: clamp(40px, 5.74vh, 62px);
-    /* width: clamp(256px, 4.76vh, 279px); */
     height: clamp(164px, 23.52vh, 254px);
-    /* height: auto; */
     width: auto;
     position: absolute;
 }
@@ -215,8 +160,8 @@
     letter-spacing: 0px;
     color: var(--unnamed-color-ffffff);
     text-align: left;
-    font-family: var(--unnamed-font-family-sofia-pro);
-    font-weight: var(--unnamed-font-weight-300);
+    font-family: var(--unnamed-font-family-poppins);
+    font-weight: 100;
     font-size: clamp(22px, 2.78vh, 30px);
     line-height: var(--unnamed-line-spacing-45);
 }
@@ -224,7 +169,7 @@
 .PositionBaubetreuung {
     position: absolute;
     left: 0px;
-    font-family: var(--unnamed-font-family-sofia-pro);
+    font-family: var(--unnamed-font-family-poppins);
     font-weight: var(--unnamed-font-weight-bold);
     font-size: clamp(58px, 8.33vh, 90px);
     line-height: var(--unnamed-line-spacing-139);
@@ -251,8 +196,9 @@
 }
 
 .BigNumberHero {
-    font-family: Sofia Pro Extra Light;
+    font-family: var(--unnamed-font-family-poppins);
     font-size: clamp(129px, 18.52vh, 200px);
+    font-weight: 200;
     color: var(--unnamed-color-ffffff);
     line-height: clamp(191px,23.52vh,297px);
 }
@@ -274,8 +220,9 @@
 }
 
 .Kontakt1 {
-    font-family: Sofia Pro Bold;
+    font-family: var(--unnamed-font-family-poppins);
     font-size: var(--unnamed-font-size-20);
+    font-weight: var(--unnamed-font-weight-bold);
     line-height: var(--unnamed-line-spacing-30);
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-3c3c3b);
@@ -284,7 +231,8 @@
 .Kontakt2 {
     font-size: var(--unnamed-font-size-20);
     line-height: var(--unnamed-line-spacing-30);
-    font-family: Sofia Pro Light;
+    font-family: var(--unnamed-font-family-poppins);
+    font-weight: var(--unnamed-font-weight-300);
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-3c3c3b);
 }
@@ -292,7 +240,8 @@
 .Kontakt3 {
     font-size: var(--unnamed-font-size-20);
     line-height: var(--unnamed-line-spacing-30);
-    font-family: Sofia Pro Light;
+    font-family: var(--unnamed-font-family-poppins);
+    font-weight: var(--unnamed-font-weight-300);
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-e94e1b);
 }
@@ -314,9 +263,9 @@
 }
 
 .InnerKontaktHeader {
-    font-family: Sofia Pro Light;
+    font-family: var(--unnamed-font-family-poppins);
     font-weight: var(--unnamed-font-weight-300);
-    font-size: clamp(47px, 3.7vw, 70px);
+    font-size: clamp(47px, 3.5vw, 70px);
     line-height: min(5.5vw, 106px);
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-3c3c3b);
@@ -354,7 +303,7 @@
 }
 
 .impressum p {
-    font-family: Sofia Pro Light;
+    font-family: var(--unnamed-font-family-poppins);
     font-weight: var(--unnamed-font-weight-300);
     font-size: var(--unnamed-font-size-20);
     line-height: var(--unnamed-line-spacing-45);
@@ -365,7 +314,7 @@
 }
 
 .impressum h1 {
-    font-family: Sofia Pro Light;
+    font-family: var(--unnamed-font-family-poppins);
     font-weight: var(--unnamed-font-weight-300);
     font-size: var(--unnamed-font-size-70);
     line-height: var(--unnamed-line-spacing-106);
@@ -376,7 +325,7 @@
 }
 
 .impressum h3 {
-    font-family: Sofia Pro Light;
+    font-family: var(--unnamed-font-family-poppins);
     font-weight: var(--unnamed-font-weight-300); 
     font-size: 50px;
     line-height: 76px;
@@ -387,7 +336,7 @@
 }
 
 .impressum h4 {
-    font-family: Sofia Pro Light;
+    font-family: var(--unnamed-font-family-poppins);
     font-weight: var(--unnamed-font-weight-300); 
     font-size: 30px;
     line-height: var(--unnamed-line-spacing-45);
@@ -397,7 +346,7 @@
 }
 
 .impressum span {
-    font-family: Sofia Pro;
+    font-family: var(--unnamed-font-family-poppins);
     font-weight: var(--unnamed-font-weight-bold);
     font-size: var(--unnamed-font-size-20);
     line-height: var(--unnamed-line-spacing-45);
@@ -410,7 +359,6 @@
 }
 
 #Projektmanagement, #Projektentwicklung, #Baubetreuung, #Controlling, #Kontakt {
-    /* scroll-margin: 125px; */
     scroll-margin: clamp(100px, 9.26px, 125px);
 }
 
@@ -441,7 +389,7 @@
  }
 
  .CookieHeader {
-    font-family: Sofia Pro;
+    font-family: var(--unnamed-font-family-poppins);
     font-size: clamp(22px, 1.56vw, 30px);
     line-height: 30px;
     font-weight: var(--unnamed-font-weight-bold);
@@ -454,7 +402,7 @@
  }
 
  .CookieContent {
-    font-family: Sofia Pro Light;
+    font-family: var(--unnamed-font-family-poppins);
     font-size: clamp(17px, 1.04vw, 20px);
     line-height: 30px;
     font-weight: var(--unnamed-font-weight-300);
@@ -472,7 +420,6 @@
  .ButtonStyle {
     height: clamp(40px, 4.35vh, 47px);
     width: 212px;
-    /* width: 11.04vw; */
     background: var(--unnamed-color-3c3c3b) 0% 0% no-repeat padding-box;
     padding: 0px;
     margin: 0px;
@@ -481,7 +428,7 @@
     box-shadow: none;
     color: var(--unnamed-color-ffffff);
     font-size: clamp(17px, 1.04vw, 20px);
-    font-family: var(--unnamed-font-family-sofia-pro);
+    font-family: var(--unnamed-font-family-poppins);
  }
 
  .ButtonStyle:hover {
@@ -589,7 +536,6 @@
     cursor: pointer;
     z-index: 1;
   }
-
 
   #modalClose {
     position: absolute;

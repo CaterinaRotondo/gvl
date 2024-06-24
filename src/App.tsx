@@ -141,7 +141,7 @@ function Header() {
           }
         }} /> 
         </div> }
-        {!isMobile && <div className='menue-_-sofia-pro-–-25pt MenuBar'>
+        {!isMobile && <div className='menue-_-poppins-–-25pt MenuBar'>
           <Link to="/#Projektmanagement"><div style={isTabletOrLaptop ? {paddingRight: "min(3.84vw, 32px)"} : {paddingRight: "min(3.49vw, 67px)"}}>Leistungen</div></Link>
           <Link to="/#Kontakt"><div style={isTabletOrLaptop ? {paddingRight: "min(3.72vw, 31px)"} : {paddingRight: "min(6.15vw, 118px)"}}>Kontakt</div></Link>
             <a href="mailto:office@gvlgmbh.de"><picture style={{paddingRight: "min(2.19vw, 42px)"}}>
